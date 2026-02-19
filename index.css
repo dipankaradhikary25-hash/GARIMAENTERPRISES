@@ -1,0 +1,125 @@
+.logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.highlight {
+    color: #ffcc00; /* Yellow color for Enterprises */
+    border-bottom: 3px solid #ffcc00;
+}
+
+header p {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #e0e0e0;
+}
+
+body { font-family: Arial; margin: 0; background: #f4f4f4; }
+header { background: #003366; color: white; padding: 20px; text-align: center; }
+#services { padding: 20px; background: white; margin: 10px; border-radius: 8px; }
+li { padding: 10px; border-bottom: 1px solid #ddd; list-style: none; }
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; /* Isse pata chalta hai ki ye clickable hai */
+    z-index: 9999;
+}
+}
+/* Services Grid Design */
+.services-container { padding: 40px 20px; background: #fff; }
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+.service-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+.service-card:hover { transform: translateY(-5px); border-color: #004a99; }
+
+/* Fixed WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+:root {
+    --primary-blue: #003366;    /* Dark Professional Blue */
+    --accent-gold: #FFD700;     /* Gold for Highlights */
+    --light-bg: #f8f9fa;        /* Light Grey Background */
+    --text-dark: #333333;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+}
+header {
+    background: linear-gradient(135deg, #003366 0%, #0052a3 100%);
+    color: white;
+    padding: 50px 20px;
+    border-bottom: 5px solid var(--accent-gold);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.service-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.clock-style {
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #FFD700; /* Gold color for contrast */
+}
+.service-section { padding: 40px 20px; background: #fff; text-align: center; }
+.trust-table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.trust-table th { background-color: #004a99; color: white; padding: 15px; }
+.trust-table td { border: 1px solid #ddd; padding: 12px; text-align: left; font-size: 14px; }
+.trust-table tr:nth-child(even) { background-color: #f9f9f9; }
+.btn-sm { background: #25d366; color: white; padding: 5px 10px; text-decoration: none; border-radius: 5px; font-size: 12px; }
